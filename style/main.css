@@ -90,6 +90,11 @@ textarea {
   }
 }
 
+.header {
+  background-image: url(../../icon/stic3.webp), url(../../icon/stic1.webp), url(../../icon/stic2.webp);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, center top 50px, center top;
+}
 .header__wraper {
   display: flex;
   align-items: center;
@@ -164,8 +169,29 @@ textarea {
   color: #fff;
 }
 .header__elem:nth-child(1) {
+  width: 100%;
+  display: flex;
+  padding-top: 21px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  gap: 13px;
+}
+.header__elem:nth-child(1) .header__slide:last-child {
+  transform: rotate(180deg);
+}
+.header__icon {
   width: 70px;
   height: 70px;
+}
+.header__desk {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .header__elem:nth-child(2) {
   display: none;
@@ -233,4 +259,79 @@ textarea {
   line-height: normal;
   border-radius: 40px;
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+}
+.header__caption {
+  display: none;
+}
+.header__items {
+  border-radius: 90px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+  width: 347px;
+  height: 109px;
+  margin-top: 53px;
+}
+.header__photo {
+  margin-top: 63px;
+  margin-bottom: 40px;
+}
+.header__slide {
+  background-color: transparent;
+}
+
+.hero {
+  padding-top: 59px;
+  padding-bottom: 60px;
+}
+.hero__title {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.hero__subtitle {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.hero__text {
+  margin-top: 51px;
+  margin-bottom: 54px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero__button {
+  color: #343045;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  width: 276px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */

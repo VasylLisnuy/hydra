@@ -1,5 +1,13 @@
 .header {
 
+    background-image: url(../../icon/stic3.webp), url(../../icon/stic1.webp), url(../../icon/stic2.webp);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, center top 50px, center top;
+
+
+
+
+
     &__wraper {
         display: flex;
         align-items: center;
@@ -99,11 +107,40 @@
 
 
     &__elem:nth-child(1) {
-        width: 70.0px;
-        height: 70.0px;
+        width: 100%;
+        
+display: flex;
+padding-top: 21px;
+padding-bottom: 18px;
+padding-left: 5px;
+padding-right: 5px;
+align-items: center;
+gap: 13px;
 
 
+.header__slide:last-child {
+    transform: rotate(180deg);
+}
     }
+
+   &__icon {
+    width: 70px;
+    height: 70px;
+   }
+
+
+&__desk {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+
 
     &__elem:nth-child(2) {
 display: none;
@@ -188,6 +225,36 @@ font-weight: 700;
 line-height: normal;
 border-radius: 40px;
 background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 36px;
+}
+
+
+
+    &__caption {
+        display: none;
     }
+
+
+    &__items {
+        border-radius: 90px;
+background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+width: 347.0px;
+height: 109.0px;
+margin-top: 53px;
+
+    }
+
+&__photo {
+    margin-top: 63px;
+    margin-bottom: 40px;
+}
+
+&__slide {
+    background-color: transparent;
+}
 
 }
