@@ -1,0 +1,103 @@
+.evo {
+    margin-top: 81px;
+
+
+& .container {
+    border-radius: 40px;
+ padding-top: 45px;
+    padding-bottom: 65px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+}
+
+&__title {
+
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+color: #fff;
+
+
+
+
+&::after {
+    margin-top: 21px;
+    margin-bottom: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content:'';
+    width: 116px;
+    height: 1px;
+    background-color: rgba(192, 183, 232, 0.33);
+   
+}
+}
+
+&__subtitle {
+
+font-weight: 300;
+font-size: 24px;
+text-align: center;
+color: #fff;
+margin-left: auto;
+margin-right: auto;
+width: 232px;
+height: 64px;
+margin-bottom: 36px;
+}
+
+
+&__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+    &__info {
+        border: 2px solid #fff;
+border-radius: 40px;
+width: 300px;
+height: 53px;
+background-color: transparent;
+
+
+&::placeholder {
+
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+padding-left: 29px;
+}
+    }
+
+
+    &__comment {
+        border: 2px solid #fff;
+border-radius: 40px;
+width: 300px;
+height: 219px;
+background-color: transparent;
+
+&::placeholder {
+
+font-weight: 400;
+font-size: 14px;
+color: #fff;
+    padding-left: 29px;
+    padding-top: 18px;
+}
+    }
+
+
+    &__button {
+        border-radius: 40px;
+padding: 15px 85px;
+background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+font-weight: 700;
+font-size: 14px;
+color: #343045;
+    }
+}
