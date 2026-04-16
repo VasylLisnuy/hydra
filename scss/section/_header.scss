@@ -175,6 +175,16 @@ display: none;
         width: 298px;
         margin-left: auto;
         margin-right: auto;
+
+
+        
+        @media screen and (min-width:1284px) {
+         margin-left: 0px;
+         margin-right: 0px;   
+         font-size: 40px;
+width: 456px;
+text-align: start;
+        }
     }
 
     &__dive {
@@ -190,6 +200,11 @@ display: none;
         -webkit-text-fill-color: transparent;
         color: #FFF;
 
+        @media screen and (min-width:1284px) {
+           
+font-size: 46px;
+
+        }
 
     }
 
@@ -207,16 +222,29 @@ display: none;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
+        @media screen and (min-width:1284px) {
+            font-size: 46px;
+        }
     }
 
     &__text {
         display: none;
+
+
+        @media screen and (min-width:1284px) {
+            display: block;
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+width: 450px;
+margin-top: 36px;
+margin-bottom: 66px;
+        }
     }
 
     &__btn {
         width: 292.0px;
 height: 52.0px;
-
         color: #343045;
 font-family: Montserrat;
 font-size: 14px;
@@ -229,6 +257,16 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 36px;
+
+
+
+        @media screen and (min-width:1284px) {
+            margin-left: 0px;
+            margin-right: 0px;
+font-size: 12px;
+width: 214px;
+height: 48px;
+        }
 }
 
 
@@ -251,10 +289,53 @@ margin-top: 53px;
 &__photo {
     margin-top: 63px;
     margin-bottom: 40px;
+
+
+    @media screen and (min-width:1282px) {
+        width: 490px;
+height: 426px;
+
+        
+    }
 }
 
 &__slide {
     background-color: transparent;
+}
+
+&__bigbox {
+
+
+        @media screen and (min-width:1284px) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 124px;
+        }
+    
+}
+
+
+&__box {
+    @media screen and (min-width:1284px) {
+         display: flex;
+         flex-direction: column;
+         align-items: left;   
+        }
+}
+
+
+&__photobox {
+@media screen and (min-width:1284px) {
+       border-radius: 100px 100px 100px 240px;
+width: 524px;
+height: 455px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgba(0, 0, 0, 0.13);
+order: 1;
+        }
 }
 
 }
