@@ -150,9 +150,10 @@ margin-right: auto;
 font-weight: 400;
 font-size: 16px;
 color: #fff;
-width: 100&;
+width: 630px;
 margin-left: 0px;
 margin-right: 0px;
+
 }
 
 }
@@ -179,17 +180,27 @@ font-weight: 700;
 font-size: 12px;
 color: #343045;
 padding: 16.5px, 40px, 16.5px, 40px;
+margin-left: 0;
+margin-right: 0;
 }
 
 }
 
 &__photo {
-position: absolute;
+    display: block;
+    @media screen and (min-width:1284px) {
+    display: none;
+}
 
+}
+
+&__photo1 {
+    display: none;
     @media screen and (min-width:1284px) {
     width: 524px;
 height: 557px;
 order: -1;
+display: block;
 }
 
 }
@@ -198,17 +209,21 @@ order: -1;
 &__wraper {
     @media screen and (min-width:1284px) {
     display: flex;
-    flex-direction: column;
-
+    gap: 117px;
+align-items: center;
 }
 }
 
 
 &__div {
-    position: relative;
    gap: 5px;
     top: 0px;
     right:-650px;
+}
+
+
+&__boxtext {
+    
 }
 
 }

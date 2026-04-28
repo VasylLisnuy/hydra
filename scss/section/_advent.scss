@@ -1,0 +1,109 @@
+.advent {
+
+    &__minititle {
+font-weight: 700;
+font-size: 26px;
+text-align: center;
+color: #fff;
+    }
+
+
+    &__minisubtitle {
+font-weight: 300;
+font-size: 26px;
+text-align: center;
+color: #fff;
+margin-top: 16px;
+    }
+
+     &__number {
+        border-radius: 100%;
+        background-image: linear-gradient(251deg, #c0b7e8 0%, #8176af 100%);
+        width: 159px;
+        height: 159px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+font-weight: 700;
+font-size: 64px;
+color: #343045;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        border-radius: 100%;
+        background-color: rgba(13, 13, 13, 0.32);
+        width: 198px;
+        height: 198px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    &__btnlist {
+        position: relative;
+        margin-top: 37px;
+    }
+
+    &__3d {
+        font-family: var(--font-family);
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+color: #fff;
+width: 186px;
+    }
+
+
+    &__slide {
+        border-radius: 100%;
+background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%) ;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+    &__slide1 {
+        border-radius: 100%;
+background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%) ;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+
+    &__bntbox {
+         border-radius: 100%;
+background-color: rgba(14, 14, 14, 0.32) ;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 62px;
+height: 62px;
+position: absolute;
+right: 0px;
+bottom: 2px;
+    }
+
+    &__bntbox1 {
+        border-radius: 100%;
+background-color: rgba(14, 14, 14, 0.32) ;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 62px;
+height: 62px;
+position: absolute;
+left: 0px;
+bottom: 2px;
+transform: rotate(180deg);
+    }
+}
