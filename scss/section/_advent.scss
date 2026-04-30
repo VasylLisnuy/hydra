@@ -1,22 +1,30 @@
 .advent {
 
     &__minititle {
-font-weight: 700;
-font-size: 26px;
-text-align: center;
-color: #fff;
+        font-weight: 700;
+        font-size: 26px;
+        text-align: center;
+        color: #fff;
+
+        @media screen and (min-width:1284px) {
+            text-align: start;
+        }
     }
 
 
     &__minisubtitle {
-font-weight: 300;
-font-size: 26px;
-text-align: center;
-color: #fff;
-margin-top: 16px;
+        font-weight: 300;
+        font-size: 26px;
+        text-align: center;
+        color: #fff;
+        margin-top: 16px;
+
+        @media screen and (min-width:1284px) {
+            text-align: start;
+        }
     }
 
-     &__number {
+    &__number {
         border-radius: 100%;
         background-image: linear-gradient(251deg, #c0b7e8 0%, #8176af 100%);
         width: 159px;
@@ -24,16 +32,16 @@ margin-top: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-font-weight: 700;
-font-size: 64px;
-color: #343045;
+
+        font-weight: 700;
+        font-size: 64px;
+        color: #343045;
     }
 
     &__box {
         display: flex;
         justify-content: center;
-        margin-top: 37px;
+        margin-bottom: 37px;
         border-radius: 100%;
         background-color: rgba(13, 13, 13, 0.32);
         width: 198px;
@@ -41,6 +49,12 @@ color: #343045;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+
+
+        @media screen and (min-width:1284px) {
+
+            margin-bottom: 25px;
+        }
     }
 
 
@@ -48,6 +62,12 @@ color: #343045;
     &__btnlist {
         position: relative;
         margin-top: 37px;
+
+        @media screen and (min-width:1284px) {
+            display: flex;
+            gap: 115px;
+            justify-content: space-around;
+        }
     }
 
     &__3d {
@@ -55,55 +75,254 @@ color: #343045;
         display: flex;
         margin-left: auto;
         margin-right: auto;
-font-weight: 700;
-font-size: 24px;
-text-align: center;
-color: #fff;
-width: 186px;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+        width: 186px;
+
+
+        @media screen and (min-width:1284px) {
+            margin-left: auto;
+            margin-right: auto;
+            
+        &::before {
+        background-image: url(../../icon/swipe.webp);
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -50px;
+    bottom: 25px;
+    }
+    
+
+        }
     }
 
 
     &__slide {
         border-radius: 100%;
-background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%) ;
-display: flex;
-justify-content: center;
-align-items: center;
+        background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__slide1 {
         border-radius: 100%;
-background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%) ;
-display: flex;
-justify-content: center;
-align-items: center;
+        background-image: linear-gradient(268deg, #c0b7e8 0%, #8176af 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
     &__bntbox {
-         border-radius: 100%;
-background-color: rgba(14, 14, 14, 0.32) ;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 62px;
-height: 62px;
-position: absolute;
-right: 0px;
-bottom: 2px;
+        border-radius: 100%;
+        background-color: rgba(14, 14, 14, 0.32);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 62px;
+        height: 62px;
+        position: absolute;
+        right: 0px;
+        bottom: 2px;
+
+        @media screen and (min-width:1284px) {
+            display: none;
+        }
     }
 
     &__bntbox1 {
         border-radius: 100%;
-background-color: rgba(14, 14, 14, 0.32) ;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 62px;
-height: 62px;
-position: absolute;
-left: 0px;
-bottom: 2px;
-transform: rotate(180deg);
+        background-color: rgba(14, 14, 14, 0.32);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 62px;
+        height: 62px;
+        position: absolute;
+        left: 0px;
+        bottom: 2px;
+        transform: rotate(180deg);
+
+        @media screen and (min-width:1284px) {
+            display: none;
+        }
+    }
+
+
+
+
+    &__btnitem {
+
+
+@media screen and (min-width:1284px) {
+    position: relative;
+}
+
+
+
+        &:nth-child(1) {
+
+
+            @media screen and (min-width:1284px) {}
+        }
+
+        &:nth-child(2) {
+            display: none;
+
+            @media screen and (min-width:1284px) {
+                display: block;
+
+                
+            }
+        }
+
+        &:nth-child(3) {
+            display: none;
+
+            @media screen and (min-width:1284px) {
+                display: block;
+
+                
+            }
+        }
+
+        &:nth-child(4) {
+            display: none;
+
+            @media screen and (min-width:1284px) {
+                display: block;
+
+                
+            }
+        }
+    }
+
+    &__boxtext {
+
+        // margin-left: auto;
+        // margin-right: auto;
+
+
+        @media screen and (min-width:1284px) {
+   margin-bottom: 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+&__boxall {
+        display: flex;
+
+    }
+
+
+    &__arrow {
+
+        display: none;
+
+        @media screen and (min-width:1284px) {
+            display: block;
+            width: 228px;
+            height: 100px;
+            align-items: center;
+            transform: translateY(-30px);
+            margin-left: 16px;
+        }
+
+
+    }
+
+    &__boxarrow {
+        display: flex;
+        
+    }
+
+    &__text {
+        display: none;
+
+        @media screen and (min-width:1284px) {
+            display: block;
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff;
+            width: 650px;
+            margin-left: auto;
+        }
+    }
+
+}
+
+.advent__btnitem:nth-child(1) {
+
+   
+    .advent__3d::before {
+         display: none;
+         @media screen and (min-width:1284px) {background-image: url(../../icon/swipe.webp);
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -50px;
+    bottom: 25px; }
+        
+    }
+}
+
+
+.advent__btnitem:nth-child(2) {
+    .advent__3d::before {
+        background-image: url(../../icon/swipe.webp);
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -25px;
+    bottom: 25px; 
+    }
+}
+
+.advent__btnitem:nth-child(3) {
+    .advent__3d::before {
+        background-image: url(../../icon/swipe.webp);
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -45px;
+    bottom: 25px; 
+    }
+}
+
+
+.advent__btnitem:nth-child(4) {
+    .advent__3d::before {
+        background-image: url(../../icon/swipe.webp);
+    background-repeat: no-repeat;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    bottom: 25px; 
     }
 }
