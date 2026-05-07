@@ -67,6 +67,7 @@
             display: flex;
             gap: 115px;
             justify-content: space-around;
+            margin-left: 15px;
         }
     }
 
@@ -205,24 +206,31 @@
     }
 
     &__boxtext {
-
-        // margin-left: auto;
-        // margin-right: auto;
+display: block;
+            margin-left: auto;
+            margin-right: auto;
 
 
         @media screen and (min-width:1284px) {
-   margin-bottom: 26px;
         display: flex;
         flex-direction: column;
         gap: 15px;
         margin-left: 0px;
         margin-right: 0px;
+        
     }
 }
 
 
 &__boxall {
         display: flex;
+
+
+        @media screen and (min-width:1284px) {
+            // background-color: red;
+            width: 1264px;
+            justify-content: space-between;
+        }
 
     }
 
@@ -245,11 +253,13 @@
 
     &__boxarrow {
         display: flex;
+
+        
         
     }
 
     &__text {
-        display: none;
+        display: block;
 
         @media screen and (min-width:1284px) {
             display: block;
@@ -258,9 +268,23 @@
             font-weight: 400;
             font-size: 16px;
             color: #fff;
-            width: 650px;
-            margin-left: auto;
+            
+           
         }
+    }
+
+
+    &__textik {
+display: none;
+
+
+@media screen and (min-width:1284px) {
+display: block;    
+width: 650px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
     }
 
 }
@@ -325,4 +349,6 @@
     left: -10px;
     bottom: 25px; 
     }
+
+
 }
