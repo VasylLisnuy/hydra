@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -19,7 +21,7 @@
 
     <header class="header">
         <div class="container">
-            <div class="header__wraper">
+            <div class="header__wraper animate__animated animate__slideInDown">
                 <a href="" class="header__logo"><img src="./icon/logo.svg" alt="headerlogo" class="header__img"> <img
                         src="./icon/logo2.png" alt="textlogo" class="header__logo2"></a>
                 <button type="button" class="header__menu"><img src="./icon/hamburger.webp" alt="hamburger"></button>
@@ -31,30 +33,30 @@
                         <li><a href="" class="header__item">HOW TO</a></li>
                     </ul>
                     <ul class="header__buttons">
-                        <li><button class="header__button">CONTACT US</button></li>
-                        <li><button class="header__buttonn">JOIN HYDRA</button></li>
+                        <li><button class="header__button animate__animated animate__pulse animate__infinite">CONTACT US</button></li>
+                        <li><button class="header__buttonn animate__animated animate__pulse animate__infinite">JOIN HYDRA</button></li>
                     </ul>
 
                 </nav>
             </div>
             <div>
                 <div class="header__bigbox">
-                    <div class="header__photobox">
+                    <div class="header__photobox animate__animated animate__fadeInUp">
                         <img src="./photo/purplewoman.webp" alt="photo" class="header__photo">
                     </div>
                     <div class="header__box">
-                        <h1 class="header__title"><span class="header__dive">Dive</span> Into The Depths Of <span
+                        <h1 class="header__title animate__animated animate__fadeInUp"><span class="header__dive">Dive</span> Into The Depths Of <span
                                 class="header__virtual">Virtual Reality</span></h1>
-                        <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        <p class="header__text animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore
                             nisl tincidunt eget. Lectus mauris eros in vitae .</p>
-                        <div class="header__boxbtn">
+                        <div class="header__boxbtn animate__animated animate__fadeInUp">
                             <button class="header__btn">BUILD YOUR WORLD</button>
                             <img src="./icon/arrow.webp" alt="" class="header__arrow">
                         </div>
                     </div>
                 </div>
-                <ul class="header__items">
+                <ul class="header__items animate__animated animate__fadeInUpBig">
                     <li class="header__elem">
                         <button type="button" class="header__slide"> <img src="./icon/button.webp" alt="button"
                                 class="header__sliders"> </button>
@@ -89,7 +91,7 @@
 
         <section class="hero">
             <div class="container">
-                <div class="hero__bigbox">
+                <div class="hero__bigbox" data-aos="fade-right">
                     <div class="hero__box">
                         <h2 class="hero__title">INTRODUCTION</h2>
                         <div class="hero__box2">
@@ -103,7 +105,7 @@
                         quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
                         lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
                 </div>
-                <div class="hero__wraper">
+                <div class="hero__wraper" data-aos="fade-up">
                     <img src="./photo/man.webp" alt="man" class="hero__photo1">
                     <div class="hero__div">
                         <div class="hero__boxtext">
@@ -131,7 +133,7 @@
         </section>
         <section class="build">
             <div class="container">
-                <div class="build__boxall">
+                <div class="build__boxall" data-aos="fade-right">
                     <div class="build__boxtext">
                         <h3 class="build__title">WHY BUILD</h3>
                         <div class="build__boxarrow">
@@ -145,7 +147,7 @@
                         quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
                         lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
                 </div>
-                <ul class="build__list">
+                <ul class="build__list" data-aos="fade-up">
                     <li class="build__item">
                         <div class="build__box">
                             <img src="./icon/build1.webp" alt="" class="build__photo">
@@ -224,7 +226,7 @@
         </section>
         <section class="info">
             <div class="container">
-                <div class="info__photo">
+                <div class="info__photo" data-aos="fade-up">
                     <h4 class="info__title">TECHNOLOGIES & HARDWARE</h4>
                     <p class="info__subtitle">USED BY HYDRA VR.</p>
                     <div class="info__boxarrow">
@@ -235,10 +237,10 @@
 
 
                 <ul class="info__list">
-                    <li class="info__item"><img src="./icon/infologo2.webp" alt="" info__logo></li>
-                    <li class="info__item"><img src="./icon/infologo3.webp" alt="" info__logo></li>
-                    <li class="info__item"><img src="./icon/infologo4.webp" alt="" info__logo></li>
-                    <li class="info__item">
+                    <li class="info__item" data-aos="zoom-in" data-aos-delay="0"><img src="./icon/infologo2.webp" alt="" info__logo></li>
+                    <li class="info__item" data-aos="zoom-in" data-aos-delay="100"><img src="./icon/infologo3.webp" alt="" info__logo></li>
+                    <li class="info__item" data-aos="zoom-in" data-aos-delay="200"><img src="./icon/infologo4.webp" alt="" info__logo></li>
+                    <li class="info__item" data-aos="zoom-in" data-aos-delay="300">
                         <div class="info__sliderbox">
                             <button type="button" class="info__slider"><img src="./icon/slidebuild.webp"
                                     alt="button"></button>
@@ -261,7 +263,7 @@
         <section class="advent">
             <div class="container">
                 <div class="advent__text">
-                    <div class="advent__boxall">
+                    <div class="advent__boxall" data-aos="zoom-in" data-aos-delay="0">
                         <div class="advent__boxtext">
                             <h5 class="advent__minititle">HOW WE BUILD</h5>
                             <div class="advent__boxarrow">
@@ -278,7 +280,7 @@
                 </div>
 
                 <ul class="advent__btnlist">
-                    <li class="advent__btnitem">
+                    <li class="advent__btnitem" data-aos="zoom-in" data-aos-delay="0">
                         <div class="advent__bntbox">
                             <button class="advent__slide"><img src="./icon/slidebuild.webp" alt="button"></button>
                         </div>
@@ -291,7 +293,7 @@
                             <button class="advent__slide1"><img src="./icon/slidebuild.webp" alt="button"></button>
                         </div>
                     </li>
-                    <li class="advent__btnitem">
+                    <li class="advent__btnitem" data-aos="zoom-in" data-aos-delay="50">
                         <div class="advent__bntbox">
                         </div>
                         <div class="advent__box">
@@ -302,7 +304,7 @@
                         <div class="advent__bntbox1">
                         </div>
                     </li>
-                    <li class="advent__btnitem">
+                    <li class="advent__btnitem" data-aos="zoom-in" data-aos-delay="100">
                         <div class="advent__bntbox">
                         </div>
                         <div class="advent__box">
@@ -313,7 +315,7 @@
                         <div class="advent__bntbox1">
                         </div>
                     </li>
-                    <li class="advent__btnitem">
+                    <li class="advent__btnitem" data-aos="zoom-in" data-aos-delay="150">
                         <div class="advent__bntbox">
                         </div>
                         <div class="advent__box">
@@ -327,7 +329,7 @@
                 </ul>
             </div>
         </section>
-        <section class="evo">
+        <section class="evo" data-aos="fade-up" >
             <div class="container">
 
                 <h2 class="evo__title">JOIN HYDRA</h2>
@@ -336,13 +338,13 @@
                     Your VR Experience</p>
 
                 <form action="" class="evo__form">
-                    <input type="text" class="evo__info" placeholder="First Name">
-                    <input type="text" class="evo__info" placeholder="Last Name">
-                    <input type="text" class="evo__info" placeholder="Email">
-                    <input type="text" class="evo__info" placeholder="Phone Number">
-                    <input type="text" class="evo__info" placeholder="Subject">
-                    <textarea name="" id="" placeholder="Tell Us Something..." class="evo__comment"></textarea>
-                    <button class="evo__button" type="button">SEND TO HYDRA</button>
+                    <input type="text" class="evo__info" placeholder="First Name" data-aos="fade-up" data-aos-delay="100">
+                    <input type="text" class="evo__info" placeholder="Last Name" data-aos="fade-up" data-aos-delay="100">
+                    <input type="text" class="evo__info" placeholder="Email" data-aos="fade-up" data-aos-delay="250">
+                    <input type="text" class="evo__info" placeholder="Phone Number" data-aos="fade-up" data-aos-delay="250">
+                    <input type="text" class="evo__info" placeholder="Subject" data-aos="fade-up" data-aos-delay="300">
+                    <textarea name="" id="" placeholder="Tell Us Something..." class="evo__comment" data-aos="fade-up" data-aos-delay="400"></textarea>
+                    <button class="evo__button" type="button" data-aos="fade-up" data-aos-delay="500">SEND TO HYDRA</button>
                 </form>
 
 
@@ -356,48 +358,48 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__stic">
-            <div class="footer__boxall">
-                <img src="./icon/logo52.webp" alt="" class="footer__logo">
-                <div class="footer__boxlist">
-                <ul class="footer__list1">
-                    <li class="footer__item"><a href="" class="footer__link">ABOUT</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">SERVICES</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">TECHNOLOGIES</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">HOW TO</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">JOIN HYDRA</a></li>
-                </ul>
-</div>
-<div class="footer__boxlist1">
-                <ul class="footer__list2">
-                    <li class="footer__item"><a href="" class="footer__link">F.A.Q</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">SITEMAP</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">CONDITIONS</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">LICENSES</a></li>
-                </ul>
-                </div>
-                <div class="footer__boxlist3">
-                <div class="footer__boxlist2">
-                    <p class="footer__title">SOCIALIZE WITH HYDRA</p>
-                    <ul class="footer__iconlist">
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/facebook.webp"
-                                    alt=""></a></li>
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/twitter.webp"
-                                    alt=""></a></li>
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/linkedin.webp"
-                                    alt=""></a></li>
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/youtube.webp"
-                                    alt=""></a></li>
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/instagram.webp"
-                                    alt=""></a></li>
-                        <li class="footer__itemicon"><a href="" class="footer__photo"><img src="./icon/pinterest.webp"
-                                    alt=""></a></li>
-                    </ul>
-                    <div class="footer__box">
-                        <button type="button" class="footer__button">BUILD YOUR WORLD</button>
+                <div class="footer__boxall">
+                    <img src="./icon/logo52.webp" alt="" class="footer__logo">
+                    <div class="footer__boxlist">
+                        <ul class="footer__list1">
+                            <li class="footer__item"><a href="" class="footer__link">ABOUT</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">SERVICES</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">TECHNOLOGIES</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">HOW TO</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">JOIN HYDRA</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__boxlist1">
+                        <ul class="footer__list2">
+                            <li class="footer__item"><a href="" class="footer__link">F.A.Q</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">SITEMAP</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">CONDITIONS</a></li>
+                            <li class="footer__item"><a href="" class="footer__link">LICENSES</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__boxlist3">
+                        <div class="footer__boxlist2">
+                            <p class="footer__title">SOCIALIZE WITH HYDRA</p>
+                            <ul class="footer__iconlist">
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/facebook.webp" alt=""></a></li>
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/twitter.webp" alt=""></a></li>
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/linkedin.webp" alt=""></a></li>
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/youtube.webp" alt=""></a></li>
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/instagram.webp" alt=""></a></li>
+                                <li class="footer__itemicon"><a href="" class="footer__photo"><img
+                                            src="./icon/pinterest.webp" alt=""></a></li>
+                            </ul>
+                            <div class="footer__box">
+                                <button type="button" class="footer__button">BUILD YOUR WORLD</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
             </div>
 
             <p class="footer__prava"><span class="footer__bottomtext">2023 © HYDRA LANDING PAGE</span><span
@@ -407,7 +409,10 @@
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

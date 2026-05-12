@@ -188,6 +188,13 @@
         width: 250px;
         height: 48px;
         background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
     }
 
     &__slide {
